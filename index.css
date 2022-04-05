@@ -270,8 +270,8 @@ background-position: center;
 .imag--overlay:hover{
     opacity: 1;
 }
-.imag--overlay:hover > * {
-    transform: var(--black)translateY(0);
+.imag--overlay:hover > *{
+    transform: var(--black) translateY(0);
 }
 
 .imag--overlay h1{
