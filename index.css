@@ -631,8 +631,13 @@ margin-top: 0.25rem;
         font-size: 55%;
           
     }
-
-    .header{
+    
+    #cart-btn{
+        padding-left: 2rem;
+        padding-right: 2rem;
+     
+    }
+ .header{
         padding:1.5rem 2rem;
     }
 
