@@ -18,7 +18,7 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
-    overflow-x: hidden;
+    
 }
 
 html{
@@ -92,7 +92,7 @@ section{
     position: fixed;
     top:0; left: 0; right: 0;
     z-index: 1000;
-      overflow: hidden;
+     
 }
 
 .header .logo img{
@@ -226,10 +226,10 @@ align-items: center;
 background: url('coffee-images/home-img.jpeg') no-repeat;
 background-size: cover;
 background-position: center;
-}
 
+}
 .home .content{
-    max-width: 60rem;
+    width: 60rem;
 }
 .home .content h3{
     font-size: 7rem;
@@ -640,8 +640,39 @@ margin-top: 0.25rem;
         padding:2rem;
     }
 
+    .home{
+width: 175%;
+}
+.home .content{
+    width: 100%;
+}
+.about{
+    width: 175%;
+}
+.menu{
+    width: 175%;
+}
+.products{
+    width: 175%;
+}
+.review{
+    width: 175%;
+}
+.contact{
+    width: 175%;
+}
+.map{
+    height: 300px;
 }
 
+.blogs{
+    width: 175%;
+}
+
+.footer{
+    width: 175%;
+}
+}
 @media (max-width:768px){
 
     #menu-btn{
