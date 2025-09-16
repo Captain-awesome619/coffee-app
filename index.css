@@ -18,6 +18,7 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
+    overflow-x: hidden;
 }
 
 html{
@@ -91,6 +92,7 @@ section{
     position: fixed;
     top:0; left: 0; right: 0;
     z-index: 1000;
+      overflow: hidden;
 }
 
 .header .logo img{
@@ -627,6 +629,7 @@ margin-top: 0.25rem;
 
     html{
         font-size: 55%;
+          
     }
 
     .header{
